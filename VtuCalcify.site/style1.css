@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+margin: 0ex;
+padding: 0px;
+box-sizing: border-box;
+color: aliceblue;
+background-color: rgba(0, 2, 18, 1);
+font-style: "Roboto",sans-serif;
+}
+.navbar{
+    border-bottom: 1.5px solid rgba(245, 245, 245, 0.078);
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter:blur(5px);
+    position: fixed;
+    width:100%;
+    height: 100px;
+    top: 0px;
+    z-index:1;
+}
+.navbar a{
+    text-decoration: none;
+    color:whitesmoke;
+
+}
+.logo{
+    height: 105px;
+    width:105px;
+}
+.list{
+    font-size: 20px;
+    width:fit-content;
+    padding-right: 70px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.list a:hover,.li a:focus{
+    background-color:rgba(255, 255, 255, 0.2);
+    color:white;
+    border: 1px solid rgba(255, 255, 255, 0.856);
+    border-radius:50px;
+    padding: 5px;
+    box-shadow: 3.0px 3.0px 3.0px  rgba(144, 144, 144, 0.281);
+}
+.boddy{
+    padding-top: 400px;
+}
+.allsem{
+    padding-bottom: 150px;
+}
+.sem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 1000px;
+    min-width: 400px;
+    min-height: 250px;
+    padding:10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    border: 3px solid  rgba(105, 103, 103, 0.16);
+}
+.mainsem{
+    background-color:rgba(13, 21, 53, 0.515);
+    position: relative;
+    top: -200px;
+    width: 250px;
+    height: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.023);
+    border-radius:20px;
+    box-shadow: 1px 10px 25px rgba(10, 28, 223, 0.19);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.pdf{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:165px;
+    height: 50px;
+    font-size:25px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.047);
+    border: 2px solid  rgba(72, 68, 68, 0.39);
+    border-radius: 20px;
+    box-shadow:  1px 10px 20px rgba(7, 14, 98, 0.19);
+
+}
+.pdf:hover{
+    width:165px;
+    height: 50px;
+    font-size:25.5px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: rgba(212, 209, 209, 0.103);
+    border: 2px solid  rgba(179, 175, 175, 0.271);
+    border-radius: 20px;
+    box-shadow:  1px 10px 20px rgba(7, 14, 98, 0.19);
+
+}
+.about{
+    position: relative;
+    top:10px;
+    height: 400px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.05); 
+    border-top: 2px solid  rgba(112, 109, 109, 0.26);
+}
+.aus{
+    font-size: 25px;
+    height: 60px;
+    width: 300px;
+    background-color:rgba(5, 17, 66, 0.515) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgba(105, 103, 103, 0.16);
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50px;
+    box-shadow: 1px 10px 20px rgba(7, 14, 98, 0.19);
+
+}
+.copy{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 320px;
+    font-size: 20px;
+    background-color:rgba(112, 109, 109, 0.09);
+}
